@@ -10,8 +10,8 @@ def linearSearch(li,n):
     return False
 
 
-li= [1,3,5,6,7,3]
-n = 5
+li= [1,3,5,6,7,3]  # list
+n = 5               # search value
 
 if  linearSearch(li,n):
     print(f"Found {n} : At  index ")
